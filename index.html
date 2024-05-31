@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroSoft Word</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+
+
+
+<div class="main">
+    <select name="" id="font-size" onclick="fontSize()">
+        <option value="10">1</option>
+        <option value="22">2</option>
+        <option value="33">3</option>
+        <option value="44">4</option>
+        <option value="55">5</option>
+        <option value="66">6</option>
+        <option value="77">7</option>
+        <option value="88">8</option>
+        <option value="99">9</option>
+        <option value="100">10</option>
+        <option value="111">11</option>
+        <option value="122">12</option>
+    </select>
+
+    <button><label for="">Font Color:
+        <input type="color" id="colorPicker" value="#000000" onchange="changeFontColor()"> <!-- Default color is black -->
+         </label></button>
+
+         <button><label for="">Background Color:
+            <input type="color" id="Picker" value="#000000" onchange="changeBackgroundColor()"> <!-- Default color is black -->
+             </label></button>
+    
+
+    
+  <button id="font-inc" onclick="inc()"><i class="fa-solid fa-plus"></i></button>  
+  <button id="font-dec" onclick="dec()"><i class="fa-solid fa-minus"></i></button>  
+ <button id="bold">B</button>
+ <button id="italic" onclick="ilalic()">I</button>
+ <button id="underline">U</button>
+
+ 
+ <button id="align-left" onclick="aligleft()">Align Left</button>
+ <button id="align-center" onclick="aligCenter()">Align Center</button>
+ <button id="align-right" onclick="aligRight()">Align Right</button>
+
+</div>
+<div class="input">
+    <textarea name="text" id="text1"></textarea> 
+</div>
+<footer>
+    <a href="https://github.com/raoabdulrehman332">Copyright 2024 <span>by</span> @Rao Addul Rehman Devolper</a>
+  </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
